@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>LOGIN-FORM</title>
+    <link rel="stylesheet" href="f1.css">
+    <script>
+    $(document).ready(function(){
+        $(".dropdown").click(function(){
+            $(".dropdown-content").slideToggle("slow");
+        });
+    });
+    </script>
+</head>
+<body alink="red">
+<b><ul>
+<li><a href="#1" class="active">MENU</a></li>
+    <li><a href="#">HELP</a></li>
+     <li class="dropdown">
+     <a class="dropbtn">CONTACTS</a>
+         <div class="dropdown-content">
+         <a href="#">9254549494,9949461151</a>
+         <a href="#">loginform1221@gmail.com</a>
+         </div>
+    </li>
+    </ul></b>  
+   
+<br><br><br><br>
+<div class="loginbox">
+<img src="LOGIN.jpg" class="t1">  
+<h1>LOGIN HERE</h1><br>
+<form>
+    <p>Enter UserName</p>
+    <input type="text" placeholder="UserName">
+    <p>Enter User Password</p>
+    <input type="password" placeholder="Password">
+   <input  type="checkbox" value="Remember">Remember Me
+    <button><h2>LOGIN</h2></button><br>
+    <pre>Not Registered? <a href="#" class="reg">Register</a></pre>
+</form>
+</div>
+</body>
+</html>
